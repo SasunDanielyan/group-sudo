@@ -1,5 +1,8 @@
 #!/bin/bash
-cd /workspace/lessons/lessons1/output
+
+cd ..
+cd output
+rm -rf u1
 mkdir u1
 cd u1
 touch a.txt
