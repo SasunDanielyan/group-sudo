@@ -1,12 +1,10 @@
 #!/bin/bash
-
-cd ..
-cd output
-rm -rf u1
-mkdir u1
+cd ../output
+sudo rm -rf u1
+sudo mkdir u1
 cd u1
-touch a.txt
-mkdir u2 u3
+sudo touch a.txt
+sudo mkdir u2 u3
 cd u2
-touch a.txt b.txt
+sudo touch a.txt b.txt
 
